@@ -2,4 +2,6 @@
 
 export(catch_data)
 export(lemmesee)
-export(mean_aa)
+export(mean_arrdelay)
+import(ggplot2)
+import(readr)

@@ -7,7 +7,7 @@
 catch_data()
 }
 \description{
-Reading from the csv file and storing the data frame in the variable named 'flights'
+Reading from the csv file, storing the dataframes in the variables named 'allflights' and 'all_aa_flights' and showing the first few lines of the 'allflights' dataframe.
 }
 \details{
 Importing data
