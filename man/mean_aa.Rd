@@ -7,8 +7,7 @@
 mean_aa()
 }
 \description{
-The function calculate the mean arrival delay for
-American Airlines in 2013
+The function calculate the mean arrival delay for American Airlines in 2013
 }
 \details{
 Calculating the mean arrival delay for American Airlines in 2013

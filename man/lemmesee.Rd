@@ -7,9 +7,7 @@
 lemmesee()
 }
 \description{
-Plotting AA departure and arrival delay
-to check if there is some sort of dependence, and as we can see
-as dep_delays increase, also arr_delays increase.
+Plotting AA departure and arrival delay to check if there is some sort of dependence, and as we can see as dep_delays increase, also arr_delays increase.
 }
 \details{
 Plotting American Airlines departure and arrival delay

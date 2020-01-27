@@ -1,6 +1,6 @@
 Package: flightsanalysis
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Brief analysis of nycflights13 dataset
 Version: 0.1.0
 Author: lucacerab
 Maintainer: lucacerab <luca.cerabone@studenti.unimi.it>
