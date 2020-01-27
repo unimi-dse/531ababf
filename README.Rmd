@@ -1,9 +1,15 @@
-flightsanalysis
-================
+---
+title: "flightsanalysis"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ## Installation
 
-``` r
+```{r, eval = F}
 # first install the R package "devtools" if not installed
 devtools::install_github("unimi-dse/531ababf")
 ```
@@ -12,7 +18,7 @@ devtools::install_github("unimi-dse/531ababf")
 
 Load the package
 
-``` r
+```{r, eval = F}
 require(flightsanalysis)
 ```
 
