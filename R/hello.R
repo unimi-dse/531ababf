@@ -1,6 +1,6 @@
-#' Import flights data from the nycflights13 package dataset
+#' Import flights data
 #'
-#' Data for all flights that departed NYC (JFK, LGA or EWR) in 2013.
+#' Data for all flights that departed NYC (JFK, LGA or EWR) in 2013, taken from the nycflights13 package dataset.
 #' They're gathered in a data frame and, for our analysis, we're interested in columns:
 #' 'dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
 #' 'carrier': two letter carrier abbreviation.
