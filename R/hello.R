@@ -4,6 +4,7 @@
 #' They're gathered in a data frame and, for our analysis, we're interested in columns:
 #' 'dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
 #' 'carrier': two letter carrier abbreviation.
+#' The first two columns are particularly useful for the plot and through the last one we can filter American Airlines data.
 #'
 #' @export
 #' @import readr

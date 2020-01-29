@@ -1,6 +1,9 @@
 flightsanalysis
 ================
 
+This package analyzes data of American Airlines flights departed from
+NYC in 2013.
+
 ## Installation
 
 ``` r
@@ -10,10 +13,17 @@ devtools::install_github("unimi-dse/531ababf")
 
 ## Usage
 
-Load the package
-
 ``` r
+# load the package
 require(flightsanalysis)
 ```
 
-Package for analysing flights data from nycflights13 dataset
+### Get data
+
+The function `catch_data()` reads a .csv file from an URL and filters
+American Airlines data. Since the dataset is quite big, you might have
+to wait a bit for the download to be completed.
+
+### Plot
+
+### Average American Airlines arrival delay
