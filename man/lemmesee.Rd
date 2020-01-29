@@ -2,13 +2,11 @@
 % Please edit documentation in R/hello.R
 \name{lemmesee}
 \alias{lemmesee}
-\title{Scatter plot of American Airlines departure and arrival delay}
+\title{American Airlines departure and arrival delays plot}
 \usage{
 lemmesee()
 }
 \description{
-Plotting American Airlines departure and arrival delays to check if there is some sort of dependence. As we can see as dep_delays increase, also arr_delays increase.
-}
-\details{
-Plotting American Airlines departure and arrival delay
+Scatter plot of American Airlines departure and arrival delays to check if there is some sort of dependence.
+Once you plot it you can see that as dep_delays increase, also arr_delays increase.
 }

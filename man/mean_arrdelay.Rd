@@ -2,13 +2,10 @@
 % Please edit documentation in R/hello.R
 \name{mean_arrdelay}
 \alias{mean_arrdelay}
-\title{American Airlines mean arrival delay}
+\title{American Airlines average arrival delay}
 \usage{
 mean_arrdelay()
 }
 \description{
-The function calculate the mean arrival delay for American Airlines in 2013.
-}
-\details{
-Calculating the mean arrival delay for American Airlines in 2013
+The function calculate the average arrival delay for American Airlines in 2013.
 }

@@ -2,13 +2,13 @@
 % Please edit documentation in R/hello.R
 \name{catch_data}
 \alias{catch_data}
-\title{Importing flights data from the nycflights13 dataset}
+\title{Import flights data from the nycflights13 package dataset}
 \usage{
 catch_data()
 }
 \description{
-Reading from the csv file, storing the dataframes in the variables named 'allflights' and 'all_aa_flights' and showing the first few lines of the 'allflights' dataframe.
-}
-\details{
-Importing data
+Data for all flights that departed NYC (JFK, LGA or EWR) in 2013.
+They're gathered in a data frame and, for our analysis, we're interested in columns:
+'dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
+'carrier': two letter carrier abbreviation.
 }
