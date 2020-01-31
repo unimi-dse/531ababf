@@ -2,15 +2,16 @@
 % Please edit documentation in R/hello.R
 \name{catch}
 \alias{catch}
-\title{Import flights data}
+\title{Import data and filter American Airlines flights}
 \usage{
 catch()
 }
 \description{
 Data for all flights that departed NYC (JFK, LGA or EWR) in 2013, taken from the nycflights13 package dataset.
+You can look at data frames clicking on them in the Global Environment.
 For our analysis, we're interested in columns:
 \itemize{
-\item dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
+\item 'dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
 \item 'carrier': two letter carrier abbreviation.
 }
 }

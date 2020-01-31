@@ -16,6 +16,8 @@ devtools::install_github("unimi-dse/531ababf")
 ``` r
 # load the package
 require(flightsanalysis)
+# find out more about it
+?flightsanalysis
 ```
 
 ### Get data

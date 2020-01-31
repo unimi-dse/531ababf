@@ -8,5 +8,6 @@ obs()
 }
 \description{
 Scatter plot of American Airlines departure and arrival delays to check if there is dependence.
+Some values are missing so they won't be plotted, you will get a warning message.
 Once you plot it you can see that, as expected, as departure delay increase, also arrival delay increase.
 }

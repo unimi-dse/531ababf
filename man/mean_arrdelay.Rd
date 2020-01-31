@@ -7,5 +7,5 @@
 mean_arrdelay()
 }
 \description{
-The function calculate the average arrival delay for American Airlines in 2013.
+The function calculates the average arrival delay for American Airlines flights departed from New York in 2013.
 }

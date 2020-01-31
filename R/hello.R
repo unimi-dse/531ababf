@@ -1,8 +1,9 @@
-#' Import flights data
+#' Import data and filter American Airlines flights
 #'
 #' Data for all flights that departed NYC (JFK, LGA or EWR) in 2013, taken from the nycflights13 package dataset.
+#' You can look at data frames clicking on them in the Global Environment.
 #' For our analysis, we're interested in columns:
-#' * dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
+#' * 'dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
 #' * 'carrier': two letter carrier abbreviation.
 #' @md
 #'
@@ -17,6 +18,7 @@ catch <- function(){
 #' American Airlines departure and arrival delays plot
 #'
 #' Scatter plot of American Airlines departure and arrival delays to check if there is dependence.
+#' Some values are missing so they won't be plotted, you will get a warning message.
 #' Once you plot it you can see that, as expected, as departure delay increase, also arrival delay increase.
 #'
 #' @export
@@ -32,10 +34,12 @@ obs <- function(){
 
 #' American Airlines average arrival delay
 #'
-#' The function calculate the average arrival delay for American Airlines in 2013.
+#' The function calculates the average arrival delay for American Airlines flights departed from New York in 2013.
 #'
 #' @export
+
 mean_arrdelay <- function(){
-  sprintf("For American Airlines flights departed from NYC in 2013, the average arrival delay was: %f minutes", mean(aa_flights$arr_delay, na.rm = T))
+  arrdelay <- aa_flights[aa_flights$arr_delay >= 0, ] #negative delays are not delays
+  sprintf("For American Airlines flights departed from NYC in 2013, the average arrival delay was: %f minutes", mean(arrdelay$arr_delay , na.rm = T))
 }
 

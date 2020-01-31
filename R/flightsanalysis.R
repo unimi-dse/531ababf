@@ -11,5 +11,5 @@
 #'
 #' @author Luca Cerabone \email{luca.cerabone@studenti.unimi.it}
 #'
-#' @name flightanalysis
+#' @name flightsanalysis
 NULL
