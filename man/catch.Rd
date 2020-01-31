@@ -9,6 +9,8 @@ catch()
 \description{
 Data for all flights that departed NYC (JFK, LGA or EWR) in 2013, taken from the nycflights13 package dataset.
 For our analysis, we're interested in columns:
-dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
-'carrier': two letter carrier abbreviation.
+\itemize{
+\item dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
+\item 'carrier': two letter carrier abbreviation.
+}
 }

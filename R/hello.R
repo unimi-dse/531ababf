@@ -2,8 +2,9 @@
 #'
 #' Data for all flights that departed NYC (JFK, LGA or EWR) in 2013, taken from the nycflights13 package dataset.
 #' For our analysis, we're interested in columns:
-#' dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
-#' 'carrier': two letter carrier abbreviation.
+#' * dep_delay, arr_delay': departure and arrival delays in minutes; negative times represent early departures/arrivals.
+#' * 'carrier': two letter carrier abbreviation.
+#' @md
 #'
 #' @export
 #' @import readr
