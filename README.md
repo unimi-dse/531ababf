@@ -1,4 +1,4 @@
-flightsanalysis
+Flightsanalysis
 ================
 
 This package analyzes data of American Airlines flights departed from
@@ -20,10 +20,17 @@ require(flightsanalysis)
 
 ### Get data
 
-The function `catch_data()` reads a .csv file from an URL and filters
+The function `catch()` reads a .csv file from an URL and filters
 American Airlines data. Since the dataset is quite big, you might have
 to wait a bit for the download to be completed.
 
 ### Plot
 
+The function `obs()` plots arrival and departure delays of American
+Airlines flights to show if there is correlation between the two
+variables.
+
 ### Average American Airlines arrival delay
+
+The function `mean_arrdelay()` shows the average arrival delay for
+American Airlines flights departed from NYC in 2013.
