@@ -6,7 +6,7 @@
 \title{Flightsanalysis Package}
 \description{
 This is a package for the 'Coding for Data Science and Data Management' course
-at UNIMI
+at UNIMI. It analyzes 2013 New York flights data.
 }
 \author{
 lucacerab \email{luca.cerabone@studenti.unimi.it}

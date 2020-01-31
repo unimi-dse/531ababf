@@ -35,6 +35,6 @@ obs <- function(){
 #'
 #' @export
 mean_arrdelay <- function(){
-  sprintf("For American Airlines flights departed from NYC, the average arrival delay in 2013 was: %f minutes", mean(aa_flights$arr_delay, na.rm = T))
+  sprintf("For American Airlines flights departed from NYC in 2013, the average arrival delay was: %f minutes", mean(aa_flights$arr_delay, na.rm = T))
 }
 
