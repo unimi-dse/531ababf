@@ -27,8 +27,7 @@ to wait a bit for the download to be completed.
 ### Plot
 
 The function `obs()` plots arrival and departure delays of American
-Airlines flights to show if there is correlation between the two
-variables.
+Airlines flights to show that the two variables are correlated.
 
 ### Average American Airlines arrival delay
 
