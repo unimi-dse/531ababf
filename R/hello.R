@@ -8,9 +8,9 @@
 #' @export
 #' @import readr
 catch <- function(){
-  flights <- read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365", header = TRUE, stringsAsFactors = FALSE)
-  aa_flights <- flights[grepl('AA', flights$carrier), ]
-  return(flights)
+  flights <<- read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365", header = TRUE, stringsAsFactors = FALSE)
+  aa_flights <<- flights[grepl('AA', flights$carrier), ]
+  head(flights)
 }
 
 #' American Airlines departure and arrival delays plot
