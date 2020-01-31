@@ -5,9 +5,14 @@
 \alias{flightanalysis}
 \title{Flightsanalysis Package}
 \description{
-This is a package for the 'Coding for Data Science and Data Management' course
-at UNIMI. It analyzes 2013 New York flights data.
+This is a package for the 'Coding for Data Science and Data Management - R module' course
+at UNIMI. It contains 3 functions to analyze 2013 New York flights data:
+\itemize{
+\item catch(): to retrieve the dataset
+\item obs(): to plot the variables arr_delay and dep_delay
+\item mean_arrdelay(): to calculate the average arrival delay for American Airlines flights departed from NYC in 2013
+}
 }
 \author{
-lucacerab \email{luca.cerabone@studenti.unimi.it}
+Luca Cerabone \email{luca.cerabone@studenti.unimi.it}
 }
