@@ -8,7 +8,6 @@
 #' @md
 #'
 #' @export
-#' @import readr
 catch <- function(){
   flights <<- read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365", header = TRUE, stringsAsFactors = FALSE)
   aa_flights <<- flights[grepl('AA', flights$carrier), ]
@@ -22,7 +21,6 @@ catch <- function(){
 #' Once you plot it you can see that, as expected, as departure delay increase, also arrival delay increase.
 #'
 #' @export
-#' @import ggplot2
 obs <- function(){
   ggplot(data = aa_flights, mapping = aes(x = dep_delay, y = arr_delay)) +
     labs(title = "American Airlines arr/dep delays") +

@@ -7,9 +7,11 @@
 #' * mean_arrdelay(): to calculate the average arrival delay for American Airlines flights departed from NYC in 2013
 #' @md
 #'
+#' @name flightsanalysis
 #' @docType package
 #'
 #' @author Luca Cerabone \email{luca.cerabone@studenti.unimi.it}
 #'
-#' @name flightsanalysis
+#' @import readr
+#' @import ggplot2
 NULL
