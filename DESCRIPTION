@@ -2,8 +2,8 @@ Package: flightsanalysis
 Type: Package
 Title: Brief analysis of nycflights13 dataset
 Version: 0.1.0
-Author: lucacerab
-Maintainer: lucacerab <luca.cerabone@studenti.unimi.it>
+Author: Luca Cerabone
+Maintainer: Luca Cerabone <luca.cerabone@studenti.unimi.it>
 Description: This package analyses fligths data from the famous package nycflights13
 License: GPL-3
 Encoding: UTF-8
