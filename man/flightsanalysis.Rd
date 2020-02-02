@@ -8,9 +8,9 @@
 This is a package for the 'Coding for Data Science and Data Management - R module' course
 at UNIMI. It contains 3 functions to analyze 2013 New York flights data:
 \itemize{
-\item catch(): to retrieve the dataset
-\item obs(): to plot the variables arr_delay and dep_delay
-\item mean_arrdelay(): to calculate the average arrival delay for American Airlines flights departed from NYC in 2013
+\item analyze(): the main function of the package that analyzes data for American Airlines flights.
+\item catch(): to retrieve flights data frame
+\item select_carrier("id"): to calculate the average arrival delay for different carriers flights departed from NYC in 2013
 }
 }
 \author{
