@@ -24,10 +24,10 @@ require(flightsanalysis)
 
 The main function of the package is `analyze()` with no input values.
 It’s useful to both see the correlation between the variables ‘arrival
-delay’ and ‘distance’ and to calculate the average delay for American
-Airlines flights departed from New York in 2013. Since the dataset is
-quite big, you might have to wait a bit for the download to be
-completed.
+delay’ and ‘distance’ and to calculate the average arrival delay for
+American Airlines flights departed from New York in 2013. Since the
+dataset is quite big, you might have to wait a bit for the download to
+be completed.
 
 ### Select a carrier
 
