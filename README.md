@@ -20,18 +20,17 @@ require(flightsanalysis)
 ?flightsanalysis
 ```
 
-### Get data
+### Analyze
 
-The function `catch()` reads a .csv file from an URL and filters
-American Airlines data. Since the dataset is quite big, you might have
-to wait a bit for the download to be completed.
+The main function of the package is `analyze()` with no input values.
+It’s useful to both see the correlation between the variables ‘arrival
+delay’ and ‘distance’ and to calculate the average delay for American
+Airlines flights departed from New York in 2013. Since the dataset is
+quite big, you might have to wait a bit for the download to be
+completed.
 
-### Plot
+### Select a carrier
 
-The function `obs()` plots arrival and departure delays of American
-Airlines flights to show that the two variables are correlated.
-
-### Average American Airlines arrival delay
-
-The function `mean_arrdelay()` shows the average arrival delay for
-American Airlines flights departed from NYC in 2013.
+The function `select_carrier()` shows the average arrival delay for a
+selected carrier. But first type `?select_carrier` to understand how it
+works.
