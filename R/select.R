@@ -1,6 +1,6 @@
 #' Average arrival delay for selected carrier
 #'
-#' Before running this function run the catch() one.
+#' Before running this function run 'flights = catch()'.
 #' Use as argument of this function the IATA carrier code you can find in the flights data frame in the global environment.
 #' If you don't know the corresponding airline company, search it on google (e.g:'B6 IATA code')
 #'
