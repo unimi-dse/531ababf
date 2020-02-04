@@ -12,7 +12,7 @@
 #' @export
 catch <- function(){
   flights <- read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365", header = TRUE, stringsAsFactors = FALSE)
-  return(head(flights))
+  return(flights)
 }
 
 
