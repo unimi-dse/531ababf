@@ -38,5 +38,5 @@ how it works.
 ### Interactive interface
 
 The function `runEXP()` with no inputs launches an interactive interface
-from which you can explore the variables used in the package. type
+from which you can explore the variables used in the package. Type
 `?runEXP` for more info.
