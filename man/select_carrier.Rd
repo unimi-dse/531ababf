@@ -7,7 +7,7 @@
 select_carrier(id)
 }
 \arguments{
-\item{ids}{IATA character}
+\item{id}{IATA character}
 }
 \value{
 average delays
