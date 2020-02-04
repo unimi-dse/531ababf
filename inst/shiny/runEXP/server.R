@@ -1,3 +1,5 @@
+library(ggplot2)
+
 server <- function(input, output){
   # grab data
   if("flights" %in% ls(envir = .GlobalEnv)){

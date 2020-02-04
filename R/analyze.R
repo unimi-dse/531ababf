@@ -1,7 +1,7 @@
 #' Data analysis for American Airlines flights data
 #'
-#' The function imports a .csv file from an URL which contains data for all flights that departed NYC (JFK, LGA or EWR) in 2013, taken from the nycflights13 package dataset.
-#' Then, it filters American Airlines flights and it makes a sample that will be used for a plot to check the dependence of arrival delay and distance traveled.
+#' The function imports a .csv file from an URL. This file contains data for all flights that departed NYC (JFK, LGA or EWR) in 2013, they're taken from the nycflights13 package dataset.
+#' Then, the function filters American Airlines flights and it makes a sample that will be used for a plot to check the dependence between arrival delay and distance traveled.
 #' Finally, it calculates the average arrival delay of flights departed from NYC in 2013.
 #'
 #' @return list

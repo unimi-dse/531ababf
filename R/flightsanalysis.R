@@ -1,10 +1,11 @@
 #' Flightsanalysis Package
 #'
 #' This is a package for the 'Coding for Data Science and Data Management - R module' course
-#' at UNIMI. It contains 3 functions to analyze 2013 New York flights data:
+#' at UNIMI. It contains 4 functions to analyze 2013 New York flights data:
 #' * analyze(): the main function of the package that analyzes data for American Airlines flights.
-#' * catch(): to retrieve flights data frame
-#' * select_carrier("id"): to calculate the average arrival delay for different carriers flights departed from NYC in 2013
+#' * catch(): to retrieve flights data frame.
+#' * select_carrier("id"): to calculate the average arrival delay for different carriers flights departed from NYC in 2013.
+#' * runEXP(): to launch an interactive interface to explore data.
 #' @md
 #'
 #' @name flightsanalysis

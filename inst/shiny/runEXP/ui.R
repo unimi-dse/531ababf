@@ -1,9 +1,7 @@
 ui <- fluidPage(
 
   # title
-  titlePanel(
-    h1("Explore data used in flightsanalysis package's functions", align = "center")
-  ),
+  titlePanel("Explore data used in flightsanalysis package's functions"),
 
   # sidebar
   sidebarLayout(
@@ -29,8 +27,8 @@ ui <- fluidPage(
     # mainpanel
     mainPanel(
       tabsetPanel(
-        tabPanel("Arrival delay for selected input", plotOutput("plot1")),
-        tabPanel("Distance in miles for selected input", plotOutput('plot2'))
+        tabPanel("Arrival delay for selected input", shinycssloaders::withSpinner(plotOutput("plot1"), color="#6495ed")),
+        tabPanel("Distance in miles for selected input", shinycssloaders::withSpinner(plotOutput('plot2'), color="#6495ed"))
       )
     )
   )

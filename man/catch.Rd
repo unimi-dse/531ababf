@@ -10,9 +10,9 @@ catch()
 data.frame
 }
 \description{
-This function grabs data for all flights that departed NYC (JFK, LGA or EWR) in 2013 and store the data frame to Global Environment.
+This function grabs data for all flights that departed NYC (JFK, LGA or EWR) in 2013.
 Data taken from the nycflights13 package dataset.
-run 'flights = catch()' if you want to use the select_carrier() function.
+Run 'flights = catch()' before using the 'select_carrier()' function.
 }
 \examples{
 catch()
