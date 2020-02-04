@@ -14,4 +14,5 @@
 #'
 #' @import readr
 #' @import ggplot2
+#' @import shiny
 NULL
