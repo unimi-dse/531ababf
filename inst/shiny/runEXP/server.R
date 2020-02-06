@@ -11,7 +11,7 @@ server <- function(input, output){
     flights[flights$origin == input$origin & flights$month == input$month & flights$day == input$day, ]
   })
 
-  # histogram of departure delays
+  # histogram of arrival delays
   output$plot1 <- plotly::renderPlotly({
     plotly::plot_ly(df(), x = ~arr_delay, type = "histogram")
   })
