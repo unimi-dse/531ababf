@@ -1,7 +1,7 @@
 ui <- fluidPage(
 
   # title
-  titlePanel("Explore data used in flightsanalysis package's functions"),
+  titlePanel("Explore data used in flightsanalysis package"),
 
   # sidebar
   sidebarLayout(

@@ -1,7 +1,7 @@
 #' Interactive interface
 #'
-#' Runs an interactive interface where you can explore data used in this package's functions.
-#' To speed it up you can run first the command 'flights = catch()', if not already done.
+#' Runs an interactive interface where you can explore data used in this package. If there are no data for selected input, the plot will be blank.
+#' To speed the process up, you can run first the command 'flights = catch()', if not already done.
 #'
 #' @return shiny app
 #'

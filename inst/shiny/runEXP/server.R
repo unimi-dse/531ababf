@@ -1,11 +1,10 @@
 library(ggplot2)
-
 server <- function(input, output){
   # grab data
   if("flights" %in% ls(envir = .GlobalEnv)){
     get("flights", envir = .GlobalEnv)
   } else{
-    flights = read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365")
+    flights <- read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365", header = TRUE, stringsAsFactors = FALSE)
   }
 
   # filter based on inputs
@@ -15,16 +14,16 @@ server <- function(input, output){
 
   # histogram of departure delays
   output$plot1 <- renderPlot({
-    g <- ggplot(df(), aes(x = arr_delay)) +
+    a <- ggplot(df(), aes(x = arr_delay)) +
       xlab("arrival delay") +
-      geom_histogram(col = "black", fill = "blue", alpha = 0.5)
-    g
+      geom_histogram(col = "black", fill = "darkgray")
+    a
   })
 
   # histogram of distance
   output$plot2 <- renderPlot({
-    p <- ggplot(df(), aes(x = distance)) +
-      geom_histogram(col = "black", fill = "blue", alpha = 0.5)
-    p
+    d <- ggplot(df(), aes(x = distance)) +
+      geom_histogram(col = "black", fill = "darkgray")
+    d
   })
 }
