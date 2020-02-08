@@ -3,7 +3,6 @@
 export(analyze)
 export(catch)
 export(runEXP)
-export(select_carrier)
 import(ggplot2)
 import(readr)
 import(shiny)

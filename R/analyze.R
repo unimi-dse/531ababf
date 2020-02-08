@@ -12,7 +12,7 @@
 #' @export
 analyze <- function(){
   # retrieve, filter data and make a sample
-  flights <- read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365", header = TRUE, stringsAsFactors = FALSE)
+  flights <- catch()
   aa <- flights[grepl('AA', flights$carrier), ]
   aa_sample <- aa[sample(nrow(aa), 300), ]
 

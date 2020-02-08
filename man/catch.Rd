@@ -12,7 +12,6 @@ data.frame
 \description{
 This function grabs data for all flights that departed NYC (JFK, LGA or EWR) in 2013.
 Data taken from the nycflights13 package dataset.
-Run 'flights = catch()' before using the 'select_carrier()' function.
 }
 \examples{
 catch()

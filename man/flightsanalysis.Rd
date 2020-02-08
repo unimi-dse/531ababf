@@ -10,7 +10,6 @@ at UNIMI. It contains 4 functions to analyze 2013 New York flights data:
 \itemize{
 \item analyze(): the main function of the package that analyzes data for American Airlines flights.
 \item catch(): to retrieve flights data frame.
-\item select_carrier("id"): to calculate the average arrival delay for different carriers flights departed from NYC in 2013.
 \item runEXP(): to launch an interactive interface to explore data.
 }
 }
