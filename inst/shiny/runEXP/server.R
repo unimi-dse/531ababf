@@ -1,10 +1,6 @@
 server <- function(input, output){
   # grab data
-  if("flights" %in% ls(envir = .GlobalEnv)){
-    get("flights", envir = .GlobalEnv)
-  } else{
-    flights <- read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365", header = TRUE, stringsAsFactors = FALSE)
-  }
+  flights <- read.csv("https://query.data.world/s/kho6cpswdlcnjancrj53o4e3wwv365", header = TRUE, stringsAsFactors = FALSE)
 
   # filter based on inputs
   df <- reactive({
